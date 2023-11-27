@@ -10,9 +10,9 @@ rabbitmq_host = os.getenv("RABBITMQ_HOST")
 rabbitmq_port = os.getenv("RABBITMQ_PORT")
 rabbitmq_queue = os.getenv("RABBITMQ_QUEUE")
 
-print(rabbitmq_host)
-print(rabbitmq_port)
-print(rabbitmq_queue)
+#print(rabbitmq_host)
+#print(rabbitmq_port)
+#print(rabbitmq_queue)
 
 # this is the function that takes callback of queue
 def callbackIt(ch, method, properties, body) :
